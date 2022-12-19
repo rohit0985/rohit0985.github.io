@@ -1,20 +1,26 @@
-import "./App.css";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Projects from "./Components/Projects/Projects";
-import Contact from "./Components/Contact/Contact";
-import Toggle from "./Components/Toggle/Toggle";
-import Navbar from "./Components/Navbar/Navbar";
+import logo from './logo.svg';
+import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Projects from './Components/Project';
+import Statistics from './Components/Statistics';
+import Contact from './Components/Contact';
+
+
+
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor:"white", color:"black"}}>
-    <Navbar/>
-      {/* <Toggle /> */}
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
+    <div className="App">
+    <Navbar/> 
+    <Home/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Statistics/>
+    <Contact/>
     </div>
   );
 }
