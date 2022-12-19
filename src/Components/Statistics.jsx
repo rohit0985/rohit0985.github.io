@@ -11,7 +11,7 @@ const Statistics = () => {
 
       <Text align="center">
 <Link href="https://github.com/rohit0985">
- <Flex gap={"15px"} alignItems={"flex-start"}>
+ <Flex gap={"15px"} alignItems={"flex-start"} flexDirection={{ base: "column", md: "row" }}>
  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=rohit0985&show_icons=true&theme=buefy&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=rohit0985&layout=compact&langs_count=8&theme=buefy"/>
  </Flex>
