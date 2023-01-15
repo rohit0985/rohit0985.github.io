@@ -40,7 +40,7 @@ Improving my skills in future.
         </Text>
         <Link mt={"20px"} target="_blank" href={resume} download="Rohit_Kumar_resume" _hover={{ textDecoration: "none" }}>
                 <Button variant="solid" leftIcon={<AiOutlineDownload />} colorScheme="messenger">
-                  Download Resume
+                  Download 
                 </Button>
               </Link>
       </Flex>
